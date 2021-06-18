@@ -1,0 +1,104 @@
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function()
+{
+$("#tab2").hide();
+$("#tab3").hide();
+
+$("#t2").click(function()
+{
+    $("#tab2").show();
+    $("#tab3").show();
+});
+});
+</script> 
+<style>
+#tab2
+{
+background:white;
+margin: 12px;
+}
+#tab3
+{ background:white;
+margin: 12px;
+
+}
+#t2
+{
+cursor: pointer;
+width:200px;
+height:30px;
+background:blue;
+border:1px solid black;
+}
+
+
+</style>
+</head>
+<div>
+ 
+    
+   
+    <table border="1" id="tab2">
+  <tr> 
+    <th>Name</th>
+    <th>Bounces</th>
+  </tr>
+  
+  <tr>
+    <td>Tendai</td>
+    <td>7</td>
+  </tr>
+  
+  <tr>
+    <td>Kudzai</td>
+    <td>13</td>
+  </tr>
+  
+  <tr>
+    <td>Taurai</td>
+    <td>3</td>
+  </tr>
+  
+  <tr>
+      <td>Nyika</td>
+    <td>1000</td>
+  </tr>
+
+</table>
+
+
+  <table border="2" id="tab3">
+  
+  <tr>
+    <th>Name</th>
+    <th>Favourite Food</th>
+  </tr>
+  
+  <tr>
+    <td>Tendai</td>
+    <td>Sadza Madora</td>
+  </tr>
+  
+  <tr>
+    <td>Kudzai</td>
+    <td>Sadza Chicken</td>
+  </tr>
+  
+  <tr>
+    <td>Taurai</td>
+    <td>Gango</td>
+  </tr>
+  
+</table>
+
+<div id="t2">Click here for zebra stripped</div>
+ <style>
+  tr:nth-child(odd) {
+  background-color: black;
+  color:white
+  </style>
+
+
+</div>
